@@ -1,0 +1,349 @@
+/* 
+
+location :- assets/css/admin_style.css
+
+*/
+
+* {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+html.login {
+	height: auto;
+}
+
+.forgot-password a:focus{
+	font-weight: 600;
+}
+
+input[type="checkbox"]:focus, input[type="radio"]:focus {
+	border: 1px solid #3c8dbc;
+}
+
+/* checkbox css */
+input[type="checkbox"] {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	-webkit-appearance: none;
+	background: white;
+	border: 1px solid #dcdcdc;
+	border-radius: 1px;
+	margin: 0px;
+	outline: none !important;
+}
+
+input[type="checkbox"]:checked::after {
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    display: block;
+    content: url(../images/icons/checkmark.png);
+}
+
+input[type="checkbox"]:unchecked::after {
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    display: block;
+    content: '';
+}
+/* checkbox css */
+
+
+/* radio button css */
+input[type="radio"] {
+	border-radius: 1em;
+	position: relative;
+	width: 15px;
+	height: 15px;
+	-webkit-appearance: none;
+	background: white;
+	border: 1px solid #dcdcdc;
+	outline: none !important;
+}
+
+input[type="radio"]:checked::after {
+	position: relative;
+	top: 3px;
+	left: 3px;
+	display: block;
+	width: 7px;
+	height: 7px;
+	content: '';
+	background: #3c8dbc;
+	border-radius: 1em;
+}
+/* radio button css */
+
+/* loader css */
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: rgba(255,255,255,0.50);
+}
+
+.loading {
+	margin-top: 19%;
+	margin-left: 48%;
+}
+
+@keyframes spin {
+    0% { 
+		transform: rotate(0deg); 
+	}
+    100% {
+		transform: rotate(360deg);
+	}
+}
+/* loader css */
+
+
+/* date range picker start */
+.date_range_picker {
+	width: 200px;
+	height: 30px;
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/* date range picker over */
+
+
+/* colors start */
+.color-red, .color-red:active, .color-red:hover, .color-red:focus, .color-red:visited {
+	color: red;
+}
+/* colors over */
+
+
+.text-color-white-font-size-15px, .text-color-white-font-size-15px:hover {
+	color: #fff;
+	font-size: 15px;
+}
+
+.logout-div {
+	margin-right: 30px;
+}
+
+
+/* margin start */
+.margin-top-bottom-15px {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.margin-left-right-5px {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.margin-left-right-15px {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+/* margin over */
+
+
+#tableBannerImages img.banner-image {
+	border-radius: 10px;
+	width: 60px;
+	height: 60px;
+}
+
+.modal .modal-dialog .modal-content .modal-header h5.modal-title {
+	width: 80%;
+	float: left;
+}
+
+.margin-left-right-auto {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.sidebar-collapse .sidebar-menu>li:hover>a>span:not(.pull-right), .sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>.treeview-menu {
+	width: 200px !important;
+}
+
+.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>a>.pull-right-container {
+	left: 200px !important;
+}
+
+.forgot-password-box-msg, .reset-password-box-msg {
+	margin: 0;
+	text-align: center;
+	padding: 0 20px 20px 20px;
+}
+
+.navbar-ul {
+	width: 200px !important;
+}
+
+.navbar-ul li.li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.navbar-ul li.last-space {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.padding-left-right-15px-0px {
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+.padding-left-right-0px-15px {
+	padding-left: 0px;
+	padding-right: 15px;
+}
+
+.padding-5px {
+	padding: 5px;
+}
+
+.padding-left-right-0px {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.font-size-11px {
+	font-size: 11px;
+}
+
+.font-size-12px {
+	font-size: 12px;
+}
+
+.font-size-16px {
+	font-size: 16px;
+}
+
+.spacer {
+	height: 10px;
+}
+
+.remember {
+	font-weight: normal;
+}
+
+.margin-20px {
+	margin: 20px;
+}
+
+.color-white {
+	color: #fff;
+}
+
+.margin-left-minus-25px {
+	margin-left: -25px;
+}
+
+/* pagination css start */
+.link {
+	padding: 10px 15px;
+	background: transparent;
+	border:#bccfd8 1px solid;
+	border-left:0px;
+	cursor:pointer;
+	color:#607d8b
+}
+
+.current {
+	background: #bccfd8;
+}
+
+.first {
+	border-left:#bccfd8 1px solid;
+}
+
+#pagination {
+	margin-top: 20px;
+	padding-top: 30px;
+	border-top: #F0F0F0 1px solid;
+}
+
+.dot {
+	padding: 10px 15px;
+	background: transparent;
+	border-right: #bccfd8 1px solid;
+}
+/* pagination css over */
+
+/* type=file design start */
+.file-hide {
+	display: none !important;
+}
+
+#selectFile {
+	padding: 10px;
+	background: #e9e9e9;
+}
+/* type=file design end */
+
+.divider {
+	background-color: #e9e9e9 !important;
+}
+
+.pagination li.curlink a {
+	cursor: not-allowed !important;
+	opacity: 0.5;
+}
+
+/* word break */
+.word-break {
+	-ms-word-break: break-all;
+	word-break: break-all;
+
+	/* Non standard for webkit */
+	word-break: break-word;
+
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+/* word break */
+
+
+/* login box */
+.login-box {
+	margin: 6% auto;
+}
+/* login box */
+
+/* ok button width */
+.ok_button_width {
+	width: 75px;
+}
+/* ok button width */
+
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
+	width: 30px;
+}
+
+/* table with datatable */
+table.dataTable thead th, table.dataTable tfoot th {
+	padding: 10px 10px;
+}
+/* table with datatable */
+
+.pagination {
+	margin: 0px;
+}
+
+/* 
+
+End of file :- 
+
+location :- assets/css/admin_style.css
+
+*/

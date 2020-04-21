@@ -1,0 +1,30 @@
+/* 
+
+location :- assets/css/admin_media_style.css
+
+*/
+
+@media (max-width: 991px) {
+
+	.table-responsives {
+		display: block;
+		overflow-y: hidden;
+		overflow-x: auto;
+	}
+}
+
+
+@media (max-width: 767px) {
+
+	.skin-blue .main-header .navbar .dropdown-menu li a {
+		color: #000 !important;
+	}
+}
+
+/* 
+
+End of file :- 
+
+location :- assets/css/admin_media_style.css
+
+*/
